@@ -1,6 +1,7 @@
-import Footer from "@/components/Footer";
 import "./globals.css";
 import { Urbanist } from "next/font/google";
+
+import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 
 const font = Urbanist({ subsets: ["latin"] });
@@ -17,9 +18,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <Navbar/>
-      <body className={font.className}>{children}</body>
-      <Footer/>
+      <body className={font.className}>
+        <Navbar />
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 }
