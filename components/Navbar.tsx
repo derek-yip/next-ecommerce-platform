@@ -1,14 +1,13 @@
-'use client'
-
 import React from "react";
 import Link from "next/link";
 
 import Container from "@/components/ui/container";
 import MainNav from "@/components/Main-nav";
-// import getCategories from "@/actions/get-categories";
+import getCategories from "@/actions/get-categories";
+import NavbarAction from "./navbar-actions";
 
 async function Navbar() {
-//   const categories = await getCategories();
+  const categories = await getCategories();
 
   return (
     <nav className={`border-b`}>
@@ -17,7 +16,8 @@ async function Navbar() {
           <Link href="/" className={`ml-4 flex lg:ml-0 gap-x-2`}>
             <p>STORE</p>
           </Link>
-          <MainNav data={[]} />
+          <MainNav data={categories} />
+          <NavbarAction/>
         </div>
       </Container>
     </nav>
