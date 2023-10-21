@@ -1,17 +1,17 @@
+import React from "react";
 import { Billboard as BillboardType } from "@/types";
 
 interface BillboardProps {
   data: BillboardType;
 }
 
-import React from "react";
 
 function Billboard({ data }: BillboardProps) {
   return (
     <div className={`p-4 sm:p-6 lg:p-8 rounded-xl overflow-hidden`}>
       <div
         className={`rounded-xl relative aspect-square md:aspect-[2.4/1] overflow-hidden`}
-        style={{ backgroundImage: `url(${data?.imgUrl})` }}
+        style={{ backgroundImage: `url('${data?.imageUrl}')` }}
       >
         <div
           className={`h-full w-full flex flex-col justify-center items-center text-center`}

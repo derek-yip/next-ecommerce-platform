@@ -4,7 +4,7 @@ import Link from "next/link";
 import Container from "@/components/ui/container";
 import MainNav from "@/components/Main-nav";
 import getCategories from "@/actions/get-categories";
-import NavbarAction from "./navbar-actions";
+import NavbarAction from "@/components/navbar-actions";
 
 async function Navbar() {
   const categories = await getCategories();
