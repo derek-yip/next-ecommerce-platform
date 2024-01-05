@@ -19,7 +19,7 @@ function Billboard({ data }: BillboardProps) {
           <div
             className={`font-bold text-3xl sm:text-5xl lg:text-6xl sm:max-w-xl max-w-xs`}
           >
-            {data.label}
+            {data?.label}
           </div>
         </div>
       </div>
