@@ -7,9 +7,4 @@ const getBillboards = async (): Promise<Billboard[]> => {
     return res.json();
 };
 
-// const getBillboards = async (id:string): Promise<Billboard> => {
-//     const res = await fetch(`${URL}/${id}`);
-//     return res.json();
-// };
-
 export default getBillboards;

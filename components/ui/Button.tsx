@@ -22,10 +22,12 @@ const Button = forwardRef<HTMLButtonElement, ButtonProps>(
         font-semibold
         hover:opacity-75
         transition
+        hover:cursor-pointer
         `,
           className
         )}
         ref={ref}
+        {...props}
       >
         {children}
       </button>

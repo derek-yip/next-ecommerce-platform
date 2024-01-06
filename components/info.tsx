@@ -12,7 +12,7 @@ interface InfoProps {
 function Info({ data }: InfoProps) {
   return (
     <div>
-      <h1 className={`text-3xl font-bold text-gray-200`}>{data.name}</h1>
+      <h1 className={`text-3xl font-bold`}>{data.name}</h1>
       <div className="mt-3 flex items-end justify-between">
         <div className="text-2xl text-gray-900">
           <Currency value={data?.price}></Currency>
