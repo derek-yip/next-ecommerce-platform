@@ -10,6 +10,7 @@ import { Product } from "@/types";
 import IconButton from "@/components/ui/icon-button";
 import Currency from "@/components/ui/currency";
 import usePreviewModal from "@/hooks/use-preview-modal";
+import useCart from "@/hooks/use-cart";
 
 interface ProductCardProps {
   data: Product;
@@ -17,16 +18,22 @@ interface ProductCardProps {
 
 function ProductCard({ data }: ProductCardProps) {
   const previewModal = usePreviewModal();
+  const cart = useCart();
+
   const router = useRouter();
   const handleClick = () => {
     router.push(`product/${data?.id}`);
   };
   const onPreview: MouseEventHandler<HTMLButtonElement> = (event) => {
     event.stopPropagation();
-    console.log(data);
-    
+
     previewModal.onOpen(data);
   };
+  const AddToCart: MouseEventHandler<HTMLButtonElement> = (event) => {
+    event.stopPropagation();
+    cart.addItem(data);
+  };
+
   return (
     <div
       className={`bg-white group cursor-pointer rounded-xl border p-3 sapce-y-4`}
@@ -49,7 +56,7 @@ function ProductCard({ data }: ProductCardProps) {
               icon={<Expand size={20} className="text-gray-600" />}
             />
             <IconButton
-              onClick={() => {}}
+              onClick={AddToCart}
               icon={<ShoppingCart size={20} className="text-gray-600" />}
             />
           </div>
