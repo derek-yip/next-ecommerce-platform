@@ -19,6 +19,7 @@ function GalleryTab({ image }: GalleryTabProps) {
             className={`absolute h-full w-full aspect-square inset-0 overflow-hidden rounded-md`}
           >
             <Image
+              key={image.id}
               fill
               src={image.url}
               alt=""

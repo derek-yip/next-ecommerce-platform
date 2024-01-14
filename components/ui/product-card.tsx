@@ -41,6 +41,7 @@ function ProductCard({ data }: ProductCardProps) {
       {/* Image and Actions */}
       <div className="aspect-square rounded-xl bg-gray-100 relative">
         <Image
+          key={data.id}
           alt="Image"
           src={data?.images?.[0]?.url}
           fill

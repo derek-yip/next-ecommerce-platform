@@ -26,6 +26,7 @@ function Gallery({ images }: GalleryProps) {
           <Tab.Panel key={image.id}>
             <div className="aspect-square relative h-full w-full sm:rounded-lg overflow-hidden">
               <Image
+                key={image.id}
                 fill
                 alt="Image"
                 src={image.url}
