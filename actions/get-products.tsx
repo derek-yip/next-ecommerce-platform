@@ -22,12 +22,9 @@ const getProducts = async (query: Query): Promise<Product[] | void> => {
   });
 
   // const res = await fetch(url);
-  try {
-    const response = await axios.get(url);
-    return response.data;
-  } catch (error) {
-    console.log(error);
-  }
+  const response = await axios.get(url);
+  return response.data;
+
   // return res.json();
 };
 
