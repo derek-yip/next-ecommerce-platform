@@ -41,6 +41,14 @@ https://next-ecommerce-platform.vercel.app/next-ecommerce-platform.vercel.app
 
 ## 
 
+## Project Infrastructure Graph
+![屏幕截图 2024-01-16 202014](https://github.com/derek-yip/next-ecommerce-platform/assets/101183496/b7842811-3c1b-4e5b-9181-cb2c366025c3)
+![屏幕截图 2024-01-16 201830](https://github.com/derek-yip/next-ecommerce-platform/assets/101183496/a9aeb4f4-5949-4ede-84da-8856c44795ce)
+![屏幕截图 2024-01-16 221351](https://github.com/derek-yip/next-ecommerce-platform/assets/101183496/94bf46d4-f2a2-4b37-986a-d207b4fb6f0f)
+![屏幕截图 2024-01-16 221559](https://github.com/derek-yip/next-ecommerce-platform/assets/101183496/558bd60f-439e-4bd9-a7ad-1b758fe1afc2)
+
+## 
+
 **Credit by:**
 
 -   AntonioErdeljac (Github)
