@@ -22,7 +22,7 @@ function ProductCard({ data }: ProductCardProps) {
 
   const router = useRouter();
   const handleClick = () => {
-    router.push(`product/${data?.id}`);
+    router.push(`../product/${data?.id}`);
   };
   const onPreview: MouseEventHandler<HTMLButtonElement> = (event) => {
     event.stopPropagation();
