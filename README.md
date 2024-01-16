@@ -1,4 +1,4 @@
-**Project Introduction**
+# Project Introduction #
 
 Next-ecommerce is an innovative and feature-rich full-stack e-commerce
 website designed to revolutionize your online shopping experience. With
@@ -15,7 +15,7 @@ are some key features that make next-ecommerce stand out:
 -   **Account Login/Register:** Enjoy personalized shopping with
     Next-ecommerce by creating an account tailored to your preferences.
     The secure login/register functionality, powered by
-    [[Clerk]{.underline}](https://www.clerk.dev/), allows you to
+    [Clerk](https://www.clerk.dev/), allows you to
     authenticate and authorize users, ensuring secure access to your
     account and protecting your personal information.
 
@@ -31,10 +31,15 @@ are some key features that make next-ecommerce stand out:
     gateway, to offer seamless and secure payment processing. This
     ensures a smooth checkout experience and protects your financial
     information.
+## Ecommerce Website Preview
+https://next-ecommerce-platform.vercel.app/next-ecommerce-platform.vercel.app
+##
 
-### Project Infrastructure Graph
+## Project Infrastructure Graph
+![Admin Database Archi](https://github.com/derek-yip/next-ecommerce-platform/assets/101183496/667c438f-bed4-4088-8a75-b78d66b09f4f)
+![Ecommence Next Admin Graph](https://github.com/derek-yip/next-ecommerce-platform/assets/101183496/ac0d525d-b80f-4934-a1f4-fd8550b4d500)
 
-### 
+## 
 
 **Credit by:**
 
@@ -45,49 +50,49 @@ are some key features that make next-ecommerce stand out:
 
 **Frontend Packages Included**
 
--   [[Next.js]{.underline}](https://nextjs.org/): A React framework for
+-   [Next.js](https://nextjs.org/): A React framework for
     server-side rendering and building modern web applications.
 
--   [[Tailwind CSS]{.underline}](https://tailwindcss.com/): A
+-   [Tailwind CSS](https://tailwindcss.com/): A
     utility-first CSS framework for rapidly building custom designs.
 
--   [[TypeScript]{.underline}](https://www.typescriptlang.org/): A
+-   [TypeScript](https://www.typescriptlang.org/): A
     statically-typed superset of JavaScript that enhances code quality
     and developer productivity.
 
--   [[Clerk]{.underline}](https://clerk.com/): A library for account
+-   [Clerk](https://clerk.com/): A library for account
     management, authentication, and authorization.
 
--   [[ui.shadcn]{.underline}](https://ui.shadcn.com/): A UI component
+-   [ui.shadcn](https://ui.shadcn.com/): A UI component
     library for enhancing the website\'s visual appeal.
 
--   [[Zustand]{.underline}](https://github.com/pmndrs/zustand): A
+-   [Zustand](https://github.com/pmndrs/zustand): A
     minimalistic state management library for managing global variables
     and state in the frontend.
 
--   [[Zod]{.underline}](https://github.com/vriad/zod): A
+-   [Zod](https://github.com/vriad/zod): A
     TypeScript-first schema validation library for ensuring data
     integrity and type safety.
 
--   [[lucide-react]{.underline}](https://github.com/lucide-icons/lucide):
+-   [lucide-react](https://github.com/lucide-icons/lucide):
     A library providing a collection of customizable icons for UI
     elements.
 
--   [[Axios]{.underline}](https://axios-http.com/): A popular library
+-   [Axios](https://axios-http.com/): A popular library
     for making HTTP requests and handling API fetching.
 
 **Backend Packages Included**
 
--   [[Planetscale]{.underline}](https://planetscale.com/): A
+-   [Planetscale](https://planetscale.com/): A
     cloud-hosted MySQL database provider for efficient and scalable data
     storage.
 
--   [[Prisma]{.underline}](https://www.prisma.io/): An open-source
+-   [Prisma](https://www.prisma.io/): An open-source
     database toolkit for database management, query building, and
     migration.
 
 -   [Clerk](https://clerk.com/): A backend package that simplifies user
     authentication and management
 
--   [[Stripe]{.underline}](https://stripe.com/en-hk): A popular payment
+-   [Stripe](https://stripe.com/en-hk): A popular payment
     processing platform
