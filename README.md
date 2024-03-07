@@ -104,3 +104,8 @@ https://next-ecommerce-platform.vercel.app/
 
 -   [Stripe](https://stripe.com/en-hk): A popular payment
     processing platform
+
+## License
+
+Next-ecommerce Website is available under the [MIT license](https://opensource.org/licenses/MIT). Feel free to use, modify, and distribute the tool according to the terms of the license.
+
