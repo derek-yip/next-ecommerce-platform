@@ -32,7 +32,7 @@ are some key features that make next-ecommerce stand out:
     ensures a smooth checkout experience and protects your financial
     information.
 ## Ecommerce Website Preview
-https://next-ecommerce-platform.vercel.app/next-ecommerce-platform.vercel.app
+https://next-ecommerce-platform.vercel.app/
 ##
 
 ## Project Infrastructure Graph
